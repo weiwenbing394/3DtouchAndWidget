@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="12120" systemVersion="16B2555" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="12029"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <imageView alignment="center" image="action0" id="er2-xs-yCe"/>
+                        <button width="1" alignment="center" verticalAlignment="center" title="出拳" id="cNP-nS-CzZ">
+                            <connections>
+                                <action selector="changeClick" destination="AgC-eL-Hgc" id="RCh-Z4-2Kz"/>
+                                <segue destination="KzG-9h-X9P" kind="push" id="JRr-kE-OZv"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="changeImage" destination="er2-xs-yCe" id="Z56-U5-dsM"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-68" y="56"/>
+        </scene>
+        <!--Second Interface Controller-->
+        <scene sceneID="ZdV-Tk-64t">
+            <objects>
+                <controller id="KzG-9h-X9P" customClass="SecondInterfaceController">
+                    <items>
+                        <imageView alignment="center" image="action1" id="NOg-gC-DEr"/>
+                        <button width="1" alignment="center" title="出拳" id="LyO-1N-NgX">
+                            <connections>
+                                <action selector="changeImageClick" destination="KzG-9h-X9P" id="MDG-g9-Vcs"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="changeImage" destination="NOg-gC-DEr" id="IWY-M3-zMJ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="163" y="55"/>
+        </scene>
+    </scenes>
+</document>

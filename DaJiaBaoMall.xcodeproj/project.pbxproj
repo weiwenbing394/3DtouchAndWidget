@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		483CE844DCBCA06C8B755BD0 /* libPods-DaJiaBaoMall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 711C36E91FC78DA6C7423E53 /* libPods-DaJiaBaoMall.a */; };
+		5139E9B61EC18C7B00BD7592 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5139E9B41EC18C7B00BD7592 /* Interface.storyboard */; };
+		5139E9B81EC18C7B00BD7592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5139E9B71EC18C7B00BD7592 /* Assets.xcassets */; };
+		5139E9BF1EC18C7B00BD7592 /* ConflictResolver Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5139E9BE1EC18C7B00BD7592 /* ConflictResolver Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5139E9C51EC18C7B00BD7592 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5139E9C41EC18C7B00BD7592 /* InterfaceController.m */; };
+		5139E9C81EC18C7B00BD7592 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5139E9C71EC18C7B00BD7592 /* ExtensionDelegate.m */; };
+		5139E9CA1EC18C7B00BD7592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5139E9C91EC18C7B00BD7592 /* Assets.xcassets */; };
+		5139E9CE1EC18C7B00BD7592 /* ConflictResolver.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5139E9B21EC18C7B00BD7592 /* ConflictResolver.app */; };
+		5139E9DC1EC1943B00BD7592 /* SecondInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5139E9DB1EC1943B00BD7592 /* SecondInterfaceController.m */; };
 		5150B4FB1E8BA038005F3898 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5150B4FA1E8BA038005F3898 /* NotificationCenter.framework */; };
 		5150B4FF1E8BA038005F3898 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5150B4FE1E8BA038005F3898 /* TodayViewController.m */; };
 		5150B5061E8BA038005F3898 /* DajiaBaoMallToday.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5150B4F91E8BA037005F3898 /* DajiaBaoMallToday.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -122,6 +130,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5139E9C01EC18C7B00BD7592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51F3AC971E88D350000D5FAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5139E9BD1EC18C7B00BD7592;
+			remoteInfo = "ConflictResolver Extension";
+		};
+		5139E9CC1EC18C7B00BD7592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51F3AC971E88D350000D5FAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5139E9B11EC18C7B00BD7592;
+			remoteInfo = ConflictResolver;
+		};
 		5150B5041E8BA038005F3898 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 51F3AC971E88D350000D5FAC /* Project object */;
@@ -146,6 +168,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		5139E9D21EC18C7B00BD7592 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5139E9BF1EC18C7B00BD7592 /* ConflictResolver Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5139E9D61EC18C7B00BD7592 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5139E9CE1EC18C7B00BD7592 /* ConflictResolver.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5150B50A1E8BA038005F3898 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -162,6 +206,19 @@
 /* Begin PBXFileReference section */
 		1603B2A42B8BA1049DB9F32A /* Pods-DaJiaBaoMall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaJiaBaoMall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DaJiaBaoMall/Pods-DaJiaBaoMall.debug.xcconfig"; sourceTree = "<group>"; };
 		3F92BFBAD2A4D827045494D5 /* Pods-DaJiaBaoMall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaJiaBaoMall.release.xcconfig"; path = "Pods/Target Support Files/Pods-DaJiaBaoMall/Pods-DaJiaBaoMall.release.xcconfig"; sourceTree = "<group>"; };
+		5139E9B21EC18C7B00BD7592 /* ConflictResolver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConflictResolver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5139E9B51EC18C7B00BD7592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		5139E9B71EC18C7B00BD7592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5139E9B91EC18C7B00BD7592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5139E9BE1EC18C7B00BD7592 /* ConflictResolver Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ConflictResolver Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5139E9C31EC18C7B00BD7592 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		5139E9C41EC18C7B00BD7592 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		5139E9C61EC18C7B00BD7592 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		5139E9C71EC18C7B00BD7592 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		5139E9C91EC18C7B00BD7592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5139E9CB1EC18C7B00BD7592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5139E9DA1EC1943B00BD7592 /* SecondInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondInterfaceController.h; sourceTree = "<group>"; };
+		5139E9DB1EC1943B00BD7592 /* SecondInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondInterfaceController.m; sourceTree = "<group>"; };
 		5150B4F91E8BA037005F3898 /* DajiaBaoMallToday.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DajiaBaoMallToday.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		5150B4FA1E8BA038005F3898 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		5150B4FD1E8BA038005F3898 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
@@ -353,6 +410,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5139E9BB1EC18C7B00BD7592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5150B4F61E8BA037005F3898 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -397,6 +461,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5139E9B31EC18C7B00BD7592 /* ConflictResolver */ = {
+			isa = PBXGroup;
+			children = (
+				5139E9B41EC18C7B00BD7592 /* Interface.storyboard */,
+				5139E9B71EC18C7B00BD7592 /* Assets.xcassets */,
+				5139E9B91EC18C7B00BD7592 /* Info.plist */,
+			);
+			path = ConflictResolver;
+			sourceTree = "<group>";
+		};
+		5139E9C21EC18C7B00BD7592 /* ConflictResolver Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5139E9C31EC18C7B00BD7592 /* InterfaceController.h */,
+				5139E9C41EC18C7B00BD7592 /* InterfaceController.m */,
+				5139E9DA1EC1943B00BD7592 /* SecondInterfaceController.h */,
+				5139E9DB1EC1943B00BD7592 /* SecondInterfaceController.m */,
+				5139E9C61EC18C7B00BD7592 /* ExtensionDelegate.h */,
+				5139E9C71EC18C7B00BD7592 /* ExtensionDelegate.m */,
+				5139E9C91EC18C7B00BD7592 /* Assets.xcassets */,
+				5139E9CB1EC18C7B00BD7592 /* Info.plist */,
+			);
+			path = "ConflictResolver Extension";
+			sourceTree = "<group>";
+		};
 		5150B4FC1E8BA038005F3898 /* DajiaBaoMallToday */ = {
 			isa = PBXGroup;
 			children = (
@@ -431,6 +520,8 @@
 				51F3ACBB1E88D351000D5FAC /* DaJiaBaoMallTests */,
 				51F3ACC61E88D351000D5FAC /* DaJiaBaoMallUITests */,
 				5150B4FC1E8BA038005F3898 /* DajiaBaoMallToday */,
+				5139E9B31EC18C7B00BD7592 /* ConflictResolver */,
+				5139E9C21EC18C7B00BD7592 /* ConflictResolver Extension */,
 				51F3ACA01E88D350000D5FAC /* Products */,
 				BF3DAAB628CDF3EF8AAA5058 /* Pods */,
 				653D990D82B6FF463E0C9610 /* Frameworks */,
@@ -444,6 +535,8 @@
 				51F3ACB81E88D351000D5FAC /* DaJiaBaoMallTests.xctest */,
 				51F3ACC31E88D351000D5FAC /* DaJiaBaoMallUITests.xctest */,
 				5150B4F91E8BA037005F3898 /* DajiaBaoMallToday.appex */,
+				5139E9B21EC18C7B00BD7592 /* ConflictResolver.app */,
+				5139E9BE1EC18C7B00BD7592 /* ConflictResolver Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1100,6 +1193,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5139E9B11EC18C7B00BD7592 /* ConflictResolver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5139E9D31EC18C7B00BD7592 /* Build configuration list for PBXNativeTarget "ConflictResolver" */;
+			buildPhases = (
+				5139E9B01EC18C7B00BD7592 /* Resources */,
+				5139E9D21EC18C7B00BD7592 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5139E9C11EC18C7B00BD7592 /* PBXTargetDependency */,
+			);
+			name = ConflictResolver;
+			productName = ConflictResolver;
+			productReference = 5139E9B21EC18C7B00BD7592 /* ConflictResolver.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		5139E9BD1EC18C7B00BD7592 /* ConflictResolver Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5139E9CF1EC18C7B00BD7592 /* Build configuration list for PBXNativeTarget "ConflictResolver Extension" */;
+			buildPhases = (
+				5139E9BA1EC18C7B00BD7592 /* Sources */,
+				5139E9BB1EC18C7B00BD7592 /* Frameworks */,
+				5139E9BC1EC18C7B00BD7592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ConflictResolver Extension";
+			productName = "ConflictResolver Extension";
+			productReference = 5139E9BE1EC18C7B00BD7592 /* ConflictResolver Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		5150B4F81E8BA037005F3898 /* DajiaBaoMallToday */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5150B5091E8BA038005F3898 /* Build configuration list for PBXNativeTarget "DajiaBaoMallToday" */;
@@ -1128,11 +1255,13 @@
 				C7626A5A8A439406E2F2F823 /* [CP] Embed Pods Frameworks */,
 				DF59D16FECB1C0E969A31FF9 /* [CP] Copy Pods Resources */,
 				5150B50A1E8BA038005F3898 /* Embed App Extensions */,
+				5139E9D61EC18C7B00BD7592 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				5150B5051E8BA038005F3898 /* PBXTargetDependency */,
+				5139E9CD1EC18C7B00BD7592 /* PBXTargetDependency */,
 			);
 			name = DaJiaBaoMall;
 			productName = DaJiaBaoMall;
@@ -1184,6 +1313,16 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "大家保";
 				TargetAttributes = {
+					5139E9B11EC18C7B00BD7592 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5363SENN6N;
+						ProvisioningStyle = Automatic;
+					};
+					5139E9BD1EC18C7B00BD7592 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5363SENN6N;
+						ProvisioningStyle = Automatic;
+					};
 					5150B4F81E8BA037005F3898 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = 5363SENN6N;
@@ -1223,11 +1362,30 @@
 				51F3ACB71E88D351000D5FAC /* DaJiaBaoMallTests */,
 				51F3ACC21E88D351000D5FAC /* DaJiaBaoMallUITests */,
 				5150B4F81E8BA037005F3898 /* DajiaBaoMallToday */,
+				5139E9B11EC18C7B00BD7592 /* ConflictResolver */,
+				5139E9BD1EC18C7B00BD7592 /* ConflictResolver Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5139E9B01EC18C7B00BD7592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5139E9B81EC18C7B00BD7592 /* Assets.xcassets in Resources */,
+				5139E9B61EC18C7B00BD7592 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5139E9BC1EC18C7B00BD7592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5139E9CA1EC18C7B00BD7592 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5150B4F71E8BA037005F3898 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1343,6 +1501,16 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5139E9BA1EC18C7B00BD7592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5139E9DC1EC1943B00BD7592 /* SecondInterfaceController.m in Sources */,
+				5139E9C81EC18C7B00BD7592 /* ExtensionDelegate.m in Sources */,
+				5139E9C51EC18C7B00BD7592 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5150B4F51E8BA037005F3898 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1436,6 +1604,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		5139E9C11EC18C7B00BD7592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5139E9BD1EC18C7B00BD7592 /* ConflictResolver Extension */;
+			targetProxy = 5139E9C01EC18C7B00BD7592 /* PBXContainerItemProxy */;
+		};
+		5139E9CD1EC18C7B00BD7592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5139E9B11EC18C7B00BD7592 /* ConflictResolver */;
+			targetProxy = 5139E9CC1EC18C7B00BD7592 /* PBXContainerItemProxy */;
+		};
 		5150B5051E8BA038005F3898 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5150B4F81E8BA037005F3898 /* DajiaBaoMallToday */;
@@ -1454,6 +1632,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		5139E9B41EC18C7B00BD7592 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5139E9B51EC18C7B00BD7592 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		51F3ACAB1E88D350000D5FAC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1473,6 +1659,74 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5139E9D01EC18C7B00BD7592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = 5363SENN6N;
+				INFOPLIST_FILE = "ConflictResolver Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dajiabao.Mall.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		5139E9D11EC18C7B00BD7592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = 5363SENN6N;
+				INFOPLIST_FILE = "ConflictResolver Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dajiabao.Mall.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		5139E9D41EC18C7B00BD7592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = 5363SENN6N;
+				IBSC_MODULE = ConflictResolver_Extension;
+				INFOPLIST_FILE = ConflictResolver/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dajiabao.Mall.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		5139E9D51EC18C7B00BD7592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = 5363SENN6N;
+				IBSC_MODULE = ConflictResolver_Extension;
+				INFOPLIST_FILE = ConflictResolver/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dajiabao.Mall.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
 		5150B5071E8BA038005F3898 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1688,6 +1942,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5139E9CF1EC18C7B00BD7592 /* Build configuration list for PBXNativeTarget "ConflictResolver Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5139E9D01EC18C7B00BD7592 /* Debug */,
+				5139E9D11EC18C7B00BD7592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5139E9D31EC18C7B00BD7592 /* Build configuration list for PBXNativeTarget "ConflictResolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5139E9D41EC18C7B00BD7592 /* Debug */,
+				5139E9D51EC18C7B00BD7592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		5150B5091E8BA038005F3898 /* Build configuration list for PBXNativeTarget "DajiaBaoMallToday" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1695,6 +1965,7 @@
 				5150B5081E8BA038005F3898 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51F3AC9A1E88D350000D5FAC /* Build configuration list for PBXProject "DaJiaBaoMall" */ = {
 			isa = XCConfigurationList;

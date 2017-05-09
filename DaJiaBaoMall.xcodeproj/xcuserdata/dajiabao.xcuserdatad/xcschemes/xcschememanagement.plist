@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ConflictResolver.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
 		<key>DaJiaBaoMall.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -17,6 +22,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>5139E9B11EC18C7B00BD7592</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>5150B4F81E8BA037005F3898</key>
 		<dict>
 			<key>primary</key>
